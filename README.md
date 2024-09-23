@@ -1,7 +1,7 @@
 ```markdown
 # ChainYar - Token & Liquidity Pool Creator 🚀
 
-![ChainYar Logo](https://user-images.githubusercontent.com/xyz/chainyar-logo.png)
+![ChainYar Logo]()
 
 ChainYar is a decentralized application (dApp) that simplifies the process of creating custom tokens and managing liquidity pools on multiple blockchain networks. With ChainYar, users can easily create tokens, set up liquidity pools, and launch ICOs — no coding experience required!
 

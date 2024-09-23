@@ -1,4 +1,3 @@
-```markdown
 # ChainYar - Token & Liquidity Pool Creator 🚀
 
 ![ChainYar Logo]()
@@ -86,5 +85,3 @@ ChainYar is an intuitive dApp that allows users to create custom tokens, manage 
 ![Polygon](https://img.shields.io/badge/blockchain-polygon-purple.svg)
 ![BSC](https://img.shields.io/badge/blockchain-binance-yellow.svg)
 ![Solana](https://img.shields.io/badge/blockchain-solana-green.svg)
-
-```

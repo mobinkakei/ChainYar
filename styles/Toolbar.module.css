@@ -1,0 +1,81 @@
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0; /* Removed padding for no extra spacing */
+  margin: 0; /* Removed margin */
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navBox {
+  display: flex;
+  padding: 8px;
+  background: linear-gradient(45deg, var(--color-muted-blue), var(--color-dark-purple));
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0; /* Remove border radius for a cleaner look */
+  width: 100%; /* Ensure it covers the entire width */
+  border-radius: 10px 10px 0 0;
+}
+
+.navContainer {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  display: flex;
+  position: relative;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.navItemLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #d3cece;
+  text-decoration: none;
+}
+
+.navItemIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6em;
+  background-color: var(--color-dark-purple);
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  transition: margin-top 250ms ease-in-out, box-shadow 250ms ease-in-out;
+}
+
+.navItemText {
+  position: absolute;
+  bottom: 0;
+  transform: scale(0);
+  transition: transform 250ms ease-in-out;
+  font-size: 12px;
+}
+
+.active .navItemIcon {
+  margin-top: -26px;
+  box-shadow: 1px 2px 200px #8a8888;
+}
+
+.active .navItemText {
+  transform: scale(1);
+}
+
+@media (min-width: 620px) {
+  .nav {
+    display: none; /* Hide the navigation on larger screens */
+  }
+}

@@ -1,0 +1,133 @@
+.footer {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(45deg, var(--color-muted-blue), var(--color-dark-purple));
+    border-radius: 40px 40px 0 0;
+    font-size: 16px;
+  }
+
+.footercol button {
+  font-family: Aria;
+  font-weight: bold;
+}
+
+.copy{
+  position: relative;
+  width: 100%;
+  background: #283764;
+  margin-bottom: 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #bfbfbf;
+  font-size: 16px;
+}
+
+  .footer .footerrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 60px;
+  }
+  .footerrow .footercol h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #bfbfbf !important;
+    cursor: pointer;
+  }
+  
+  .footer a:hover {
+      text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+      color: #fff !important;
+      transition: 1s;
+    }
+    
+  .footercol .links {
+    margin-top: 20px;
+  }
+  .footercol .links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  .footercol p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: fit-content;
+  }
+  .footercol form {
+    display: flex;
+    gap: 5px;
+  }
+  .footercol input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7489C6 ;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+  }
+  .footercol input::placeholder {
+    color: #ccc;
+  }
+   .footercol form button {
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .footercol .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+  }
+  .footercol .icons i {
+    color: #afb6c7;
+  }
+  .footercol .icons i:hover  {
+    color: #fff;
+  }
+
+  .recatIcon{
+    width: 30px;
+    height: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .footer {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      transform: none;
+      width: 100%;
+      border-radius: 0;
+    }
+    .footer .footerrow {
+      padding: 20px;
+      gap: 1rem;
+    }
+    .footercol form {
+      display: block;
+    }
+    .footercol form :where(input, button) {
+      width: 100%;
+    }
+    .footercol form button {
+      margin: 10px 0 0 0;
+    }
+  }

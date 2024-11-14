@@ -1,6 +1,6 @@
 {
-  "name": "chainyar",
-  "version": "0.1.0",
+  "name": "ChainYar",
+  "version": "1.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.13"
-  },
-  "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13"
+    "@babel/core": "^7.25.2",
+    "@formspree/react": "^2.5.1",
+    "@metaplex-foundation/mpl-token-metadata": "^2.3.3",
+    "@next/font": "13.4.13",
+    "@openzeppelin/contracts": "^4.9.3",
+    "axios": "^1.6.8",
+    "babel": "^6.23.0",
+    "bitcore-lib": "^10.0.36",
+    "bs58": "^5.0.0",
+    "ethers": "^5.7.2",
+    "immer": "^9.0.12",
+    "next": "13.4.13",
+    "punycode": "^2.3.1",
+    "qrcode.react": "^3.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "web3modal": "^1.9.9",
+    "zustand": "^3.6.9"
   }
 }

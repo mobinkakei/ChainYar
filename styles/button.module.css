@@ -1,0 +1,36 @@
+
+.button {
+	height: 50px;
+	width: 200px;
+	position: relative;
+	background-color: var(--color-dark-purple);
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 30px;
+	color: #c5c0c0;
+	transition: all 0.5s ease-in-out;
+    border: none;
+    box-shadow: 1px 2px 200px #8a8888;
+}
+
+.button:hover{
+	background-color: var(--color-muted-blue);
+	transition: all 0.8s;
+}
+
+.text {
+	z-index: 1;
+	font-family: Aria;
+	font-weight: bold;
+	font-size: 14.5px;
+}
+
+@media (min-width: 600px) and (max-width: 1100px) {
+	.button{
+		width: 150px;
+	}
+
+	.text{
+		font-size: 14px;
+	}
+}

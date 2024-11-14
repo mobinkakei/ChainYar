@@ -1,83 +1,76 @@
-# ChainYar - Token, ICO & Liquidity Pool Creator 🚀
+# 🌟 چین یار (ChainYar) 🌟
 
-![ChainYar Logo](https://user-images.githubusercontent.com/xyz/chainyar-logo.png)
+**چین یار** is a SaaS DApp designed to provide a comprehensive suite of tools for web3 and blockchain. Whether you’re creating tokens or managing ICOs, ChainYar offers all the services you need on Binance Chain, Solana, Polygon, Ethereum, and more, in one convenient platform. 🚀
 
-ChainYar is a decentralized application (dApp) that simplifies the process of creating custom tokens and managing liquidity pools on multiple blockchain networks. With ChainYar, users can easily create tokens, set up liquidity pools, and launch ICOs — no coding experience required!
+## Features ✨
 
-## 🌟 Features
+- **🪙 Token Creation**  
+  Create tokens on any blockchain in seconds, no blockchain programming skills required!
 
-- **Token Creation**: Easily create your own ERC-20 tokens with a few clicks.
-- **Liquidity Pool Management**: Set up and manage liquidity pools to provide liquidity for your tokens and increase trading volume.
-- **ICO Campaigns**: Launch and manage ICO campaigns securely using ChainYar’s built-in contract system.
-- **Cross-Chain Support**: Compatible with popular networks like Ethereum, Binance Smart Chain, and Polygon.
-- **User-Friendly Interface**: Simple and intuitive platform designed for both technical and non-technical users.
+- **🎟️ ICO Management**  
+  Build and manage ICO campaigns with dedicated presale pages for each token.
 
-## ⚙️ Migration to HardHat
+- **📈 Marketing Tools**  
+  Access tools to effectively market your tokens and reach a wider audience.
 
-We are migrating to **HardHat** to enhance the development process, allowing for easier testing, better debugging, and more efficient deployment of smart contracts. HardHat provides a flexible development environment, enabling faster iteration and smoother contract management.
+- **💱 Currency Transfer**  
+  Transfer cryptocurrencies across different chains seamlessly.
 
-## 🚀 Getting Started
+- **🔐 Wallet Generator**  
+  Generate secure wallets for your tokens easily.
 
-To start using ChainYar for token creation and liquidity pool management:
+- **📱 Web3 QR Code Generator**  
+  Generate QR codes for easy web3 transactions.
 
-1. Visit the ChainYar platform at [chainyar.liara.run](https://chainyar.liara.run).
-2. Connect your wallet using MetaMask or WalletConnect.
-3. Start creating tokens, setting up liquidity pools, and launching ICO campaigns with ease!
+- **🦊 Metamask Integration**  
+  Add tokens to Metamask with ease.
 
-## 💻 Developer Setup
+- **📜 User Profile & History**  
+  Access your transaction history and manage your user profile.
 
-If you are a developer and want to set up ChainYar locally, follow these steps:
+## Technologies Used 🔧
 
-### Prerequisites
+- **Next.js**
+- **Node.js**
+- **Smart Contracts (Solidity)**
+- **Solana Web3 Library**
 
-- [Node.js](https://nodejs.org/)
-- [HardHat](https://hardhat.org/)
-- [MetaMask](https://metamask.io/)
+## Installation 🚀
 
-### Installation
+To get started with ChainYar, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/chainyar/chainyar.git
-   cd chainyar
-   ```
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/mobinkakei/chainyar.git
+    ```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd chainyar
+    ```
 
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
+3. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
 
-4. Compile the smart contracts:
-   ```bash
-   npx hardhat compile
-   ```
+4. **Build the Project**:
+    ```bash
+    npm run build
+    # or
+    npx next build
+    ```
 
-5. Deploy the contracts to a local network:
-   ```bash
-   npx hardhat node
-   npx hardhat run scripts/deploy.js --network localhost
-   ```
+5. **Deploy the Project**:
+    ```bash
+    npm run dev
+    # or
+    npx next dev
+    ```
 
-## 📦 Tech Stack
+## Contact 📬
 
-- ![Solidity](https://img.shields.io/badge/language-solidity-black.svg) **Solidity**: For smart contract development
-- ![HardHat](https://img.shields.io/badge/framework-hardhat-orange.svg) **HardHat**: For testing, deployment, and debugging
-- ![React](https://img.shields.io/badge/frontend-react-blue.svg) **React**: Frontend development
-- ![Ethers.js](https://img.shields.io/badge/library-ethers.js-yellow.svg) **Ethers.js**: Blockchain interaction
-- ![Pinata](https://img.shields.io/badge/storage-pinata-blue.svg) **Pinata**: Decentralized file storage for token metadata
+For any questions or support, please contact:
 
-## ✨ Summery 
-
-ChainYar is an intuitive dApp that allows users to create custom tokens, manage liquidity pools, and launch ICO campaigns across multiple blockchain networks, all with minimal technical expertise.
-
----
-
-![Ethereum](https://img.shields.io/badge/blockchain-ethereum-blue.svg)
-![Polygon](https://img.shields.io/badge/blockchain-polygon-purple.svg)
-![BSC](https://img.shields.io/badge/blockchain-binance-yellow.svg)
-![Solana](https://img.shields.io/badge/blockchain-solana-green.svg)
+- **Email**: [kakeimobin98@gmail.com](mailto:kakeimobin98@gmail.com)
+- **Instagram**: [mobeen07_k](https://www.instagram.com/mobeen07_k/)
